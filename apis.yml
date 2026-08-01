@@ -1,7 +1,27 @@
 aid: rex-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rex-inc.png
 name: Rex Inc
-description: Rex Inc is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rex Inc, operating as Rex.fit (BabylonAI Inc.), is a Y Combinator (W23) health
+  and fitness company building AI-powered, fully automated nutrition tracking.
+  Its consumer products include Rex Nutribot, a WhatsApp AI nutrition coach; the
+  Drop, a wearable AI camera pendant that detects meals and automatically logs
+  calories, protein, carbs, and fats via computer vision; an AI body scanner; and
+  personalized coaching with daily health reports. Rex also offers a white-label
+  B2B nutrition-and-fitness AI that fitness chains and app builders integrate to
+  add meal logging (photo, barcode, or text), recipe and meal-plan generation,
+  workout logging, 3D body scans, and nutrition analytics under their own brand.
 url: https://raw.githubusercontent.com/api-evangelist/rex-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Fitness
+- Nutrition
+- Artificial Intelligence
+- Computer Vision
+- Wearables
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/rex-inc-domain-security.yml
+- type: Website
+  url: https://www.rex.fit
+- type: Portal
+  name: B2B / White-label API
+  url: https://rex.fit/api
+- type: Blog
+  url: https://rex.fit/blog
+- type: Support
+  name: Contact
+  url: https://rex.fit/contact
+- type: TermsOfService
+  url: https://rex.fit/terms-of-service
+- type: PrivacyPolicy
+  url: https://rex.fit/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rexfit/
+- type: Twitter
+  url: https://twitter.com/rexfit_app
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
