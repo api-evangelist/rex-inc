@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rex-inc.png
-name: Rex Inc
+name: Rex
 description: >-
   Rex Inc, operating as Rex.fit (BabylonAI Inc.), is a Y Combinator (W23) health
   and fitness company building AI-powered, fully automated nutrition tracking.
@@ -49,7 +49,7 @@ tags:
 - Fitness
 - Nutrition
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Wearables
 - Y Combinator
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Computer Vision
 - Wearables
 - Y Combinator
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
@@ -93,3 +94,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Rex Inc
